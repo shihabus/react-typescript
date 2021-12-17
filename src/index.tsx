@@ -4,13 +4,16 @@ import App from './App'
 import Counter from './1.Counter'
 import FunctionComponent from './3.FuncComponent'
 import ElemAndComponents from './4.ElemAndComponents'
+import FuncComp, { ProppedApp } from './5.FuncComp'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Counter defaultCount={0} /> */}
     {/* <FunctionComponent /> */}
-    <ElemAndComponents />
+    {/* <ElemAndComponents /> */}
+    <FuncComp />
+    <ProppedApp />
   </React.StrictMode>,
   document.getElementById('root'),
 )
